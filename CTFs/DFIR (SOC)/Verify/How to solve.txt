@@ -1,0 +1,4 @@
+- Here, easily we apply the sha checksum encryption on all files that we have in our "files" folder... using the command "sha256sum", we use grep command to take all files content and apply the sha hash...
+- And then we decrypt the correct file:
+![[Pasted image 20260118135601.png]]
+- 
