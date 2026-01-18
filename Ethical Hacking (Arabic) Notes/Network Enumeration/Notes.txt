@@ -1,0 +1,18 @@
+# NetDiscover
+- A tool used to scan devices inside a network.
+- We use this command :
+sudo netdiscover -r [Ip_address with the mask] (like for example : 192.168.11.1/24)
+We put 1 at the end, so that we say to netdiscover to scan the first IP address and then keep incrementing the IP, and if it finds a device with that IP it lists it.
+![[Pasted image 20251109144157.png]]
+
+# Nmap
+- For the nmap part, look at the pentesting notes in the HackTheBox folder.
+- To use nmap for device scanning, we use this command:
+sudo nmap -sn [Ip_address with the mask] (like for example : 192.168.11.1/24)
+![[Pasted image 20251109150631.png]]
+- To scan more securely, add -sS after nmap word in the command.
+
+
+# Zenmap
+- Nmap but graphical.
+- When you choose the type of scan, it gives you also the nmap command to use that type of scan.

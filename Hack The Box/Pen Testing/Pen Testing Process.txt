@@ -1,0 +1,28 @@
+1/ Planning:
+The attacker gathers maximum of informations and vulnerabilites about the system, like studies it...
+
+
+2/ Scanning:
+The pen tester acts as an real threat by trying to exploit all the possible vulnerabilities such as:
+- Port scanning to identify potential access points into a target system vulnerability. 
+- Scanning to identify potential exploitable vulnerabilities of a particular target.
+- Establishing an active connection to a target (enumeration) to identify the user account, system account and admin account.
+
+
+3/ Gaining Access:
+The pen tester will attempt to gain access to a target system and sniff network traffic, using various methods to exploit the system including:
+
+- Launching an exploit with a payload onto the system
+- Breaching physical barriers to assets
+- Social engineering
+- Exploiting website vulnerabilities
+- Exploiting software and hardware vulnerabilities or misconfigurations
+- Breaching access controls security
+- Cracking weak encrypted Wi-Fi.
+
+4/ Maintaining Access:
+The pen tester will maintain access to the target to find out what data and systems are vulnerable to exploitation. It is important that they remain undetected, typically using backdoors, Trojan horses, rootkits and other covert channels to hide their presence.
+
+
+5/ Analysis & Reporting:
+The pen tester will provide feedback via a report that recommends updates to products, policies and training to improve an organization’s security.

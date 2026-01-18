@@ -1,0 +1,5 @@
+So here we open our pdf, we try those blank sections by copying them and pasting them 
+elsewhere to see if they have hidden flags, they don't.
+So based on the hints, we take the pdf, and put it in a website that extracts metadatas from the pdf.
+
+We try the outputs and decode them in base64, here it was the value in front of author section.

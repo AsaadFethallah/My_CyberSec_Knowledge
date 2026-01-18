@@ -1,0 +1,9 @@
+- Here we decode the txt file with base64 into an, image:
+![[Pasted image 20260113194619.png]]
+- Here we use the "tesseract" command to extract some text and put it in the output.txt file:
+![[Pasted image 20260113194953.png]]
+
+- Here we take this line to decode it from Hex:
+![[Pasted image 20260113195041.png]]
+- Here we use a tool like the "cyberChef" website to extract the code from hex to regular expression:
+![[Pasted image 20260113195323.png]]

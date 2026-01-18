@@ -1,0 +1,8 @@
+- Here, we'll need to analyse Network Traffic (Packets)
+- So, we'll use Wireshark
+- We can open a pcap file in Wireshark to analyse...
+![[Pasted image 20260117132144.png]]
+- So here what we did is, we filtered the packets with time (from latest):
+![[Pasted image 20260117134134.png]]
+- And so for each packet we decode it frames to base64, and put it in a text file next to each other to make the flag
+![[Pasted image 20260117134237.png]]

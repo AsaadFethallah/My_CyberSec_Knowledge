@@ -1,0 +1,5 @@
+- In Windows, we can use an app named XArp that keeps scanning the ARP table (that we display with arp -a), whenever there is a change in the MAC address of an IP address (for example, when we change the Router to our hacking machine) it alarms us.
+![[Pasted image 20260113180740.png]]
+- We can also detect it in Wireshark, we enable the ARP protocols paquets detection, and we see this message right here:
+![[Capture d’écran (3108) 1.png]]
+- And in order to prevent it after detecting it, we can either disconnect from that network (the easy solution), we can either use VPN, or use a HTTPS extension in chrome to deny any data showcase in the ARP Attack.

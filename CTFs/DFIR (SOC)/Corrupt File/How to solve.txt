@@ -1,0 +1,15 @@
+- Here we first use the xxd command on the file to see it's headers:
+![[Pasted image 20260115201733.png]]
+
+- If we follow this fact:
+![[Capture d’écran (3134).png]]
+
+Then we just need to change the Bytes of the first header to turn the file into an image:
+- We use a hexEditor in the browser to change those Bytes:
+![[Pasted image 20260115202205.png]]
+- Here how we found it:
+![[Capture d’écran (3136).png]]
+- We modify it:
+![[Pasted image 20260115202529.png]]
+- And export our JPEG file^:
+![[Pasted image 20260115202636.png]]

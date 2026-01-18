@@ -1,0 +1,8 @@
+So basically we get an image red.png.
+We put it for image analysis for example in AperiSolve
+And in the zsteg part, we copy a code
+and we decode it base 64 and get our flag
+
+You can use zsteg command in Linux
+For base64 decoding, we put the code in a file and do this command : 
+base64 -d file_name

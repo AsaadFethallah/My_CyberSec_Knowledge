@@ -1,0 +1,42 @@
+- Cyberwarfare is an Internet-based conflict that involves the penetration of information systems of other nations.
+
+- Correction: RansomWare is threat demands (Like holding data captive), ScareWare is scare someone into thinking they have problems
+
+- Rootkit is like opening a backdoor so that anybody can access
+
+- Trojan Horses, like viruses but don't replicate themselves like them, they go to files and open like backdoors from them...
+
+- Worms, like viruses that duplicate themselves so that they can go from a computer to another, unlike viruses they don't need a host running to activate...
+
+- Social Engineering : SAMAOUI
+
+- DoS attacks AKA (Denial-of-Service) : are attacks that target systems (by attacking servers, networks...)
+	To do this we can send to a server a high traffic of (pings for example), or attack the integrity of packets going to the server or network...(Like MiM attack)
+
+- DDoS is a larger DoS attack...
+
+- Botnets, once installed in a computer, we can control it from distance...
+
+- SEO Poisining hiya hadik dial Search ( Pop up order )
+
+- RowHammer, An attack directed to Hardware component RAM...
+
+- Meltdown and Specter, has a bond with CPU Vulnerabilities...
+
+- KRACKS attacks, are network-based attacks WPA2
+
+- EFS Encryption, is a way to secure folders data in Windows
+
+- To erase Data permanently, We must either transform them or corrupt them into binary digits, or break the hard drive
+
+- IPS, like a firewall but uses signatures in the traffic and compares them...
+
+- There a lot of Firewall types, like proxy, NAT, firewalls based on hosts, networks, apps...
+
+- Nmap is a tool to exploit ports...
+
+- IPS & IDS protect against external exploits...
+
+- HoneyPot : Hack Passif (Let someone enter (like lure them) than catch them and analyse them)...
+
+- DLP: Data Loss Prevention

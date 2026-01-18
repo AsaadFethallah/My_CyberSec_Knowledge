@@ -1,0 +1,10 @@
+- So first we scan for any metadatas in the pic :
+![[Capture d’écran (3109).png]]
+- Here it tells us that the password for the steghide command of the original metacode is the one that we must decode once again:
+![[Pasted image 20260113191343.png]]
+- This is the password:
+![[Pasted image 20260113191543.png]]
+- We use steghide on the image that we downloaded in the beginning:
+![[Pasted image 20260113192120.png]]
+- Here is our flag from the text generated:
+![[Pasted image 20260113192207.png]]

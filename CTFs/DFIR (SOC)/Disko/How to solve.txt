@@ -1,0 +1,8 @@
+So actually, in this challenge, we download the gzip file in our Linux machine.
+We unzip it using the gunzip command
+Then, if we check the hints of the ctf challenge, they say strings.
+strings is a command, that allows us to read readable text from binary files
+
+so we put this command : strings unziped_file_name | grep picoCTF
+
+and we get our flag.

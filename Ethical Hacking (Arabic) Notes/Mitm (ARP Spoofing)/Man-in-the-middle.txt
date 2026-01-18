@@ -1,0 +1,11 @@
+- The idea here is that a Machine connects with the router as it sends requests (containing data), the router takes them to Internet and then proceeds with responses, here we take both roles, as we are in the middle, and that traffic passes through us.
+- First, you need to know the IP of your target machine and the IP of the router.
+- Use "sudo netdiscover" to scan for the IPs, then keep them written somewhere for later.
+- Now, we must trick both the target and the router that we are the other party, this by using 
+	"sudo arpspoof -i eth0 -t [Target_IP] (IP_of our fake identity for the target ) "  
+- We put the target machine IP first then the router in the first time, after, we switch them.
+![[Pasted image 20260113152726.png]]
+- If we check the arp table in our Windows machine (Target machine), we'll notice that the IP of router has the MAC address of our Kali machine not the router's
+![[Capture d’écran (3104).png]]
+- So here, since we've taken the role of the target for both parties, we can notice that the requests and responses are affected, to make them pass through, we put this command in both terminals:
+![[Capture d’écran (3105).png]]

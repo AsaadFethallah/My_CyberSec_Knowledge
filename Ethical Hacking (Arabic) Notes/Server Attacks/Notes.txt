@@ -1,0 +1,17 @@
+- "Metasploitable" is a machine that represents a server. (We can use to test attacks on it)
+- It is owned by "Rapid7"
+- To attack and exploit the Metasploitable vulnerabilities, we can use an App Called "Metasploitable Framework" that can be run with this command: "msfconsole"
+![[Capture d’écran (3121).png]]
+- And so to use this app on a FTP port of that Metasploitable Server, we do this command "exploit(unix/ftp/vsftpd_234_backdoor)"
+- Then we put this command to connect to that server : set rhosts [Server_IP_Address]
+![[Pasted image 20260115154058.png]]
+- And so we write "show options" to see what we can do and explore what's inside.
+- So Basically there is a website for cybersecurity vulnerabilities called "Rapid7" 
+![[Pasted image 20260115172553.png]]
+- We can type any type of protocol like ftp earlier, or samba, and it gives us the path to exploit in the msf app.
+- For ssh, to find the password, we can use the "Hydra" App, with the wordlist method to find the right login password.
+- If the server has a port open called rsh, we can login using this command:
+"rsh -l [user (Like root for example)] [Server_IP]" 
+
+- "Nexpose" is a tool (that needs to be installed on Kali), that scans a link or a server IP, and show us all vulnerabilities
+![[Pasted image 20260115175856.png]]

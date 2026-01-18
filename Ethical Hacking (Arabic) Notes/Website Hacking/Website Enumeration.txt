@@ -1,0 +1,39 @@
+- We can use a tool called "WhoisLookUp", we go to "https://whois.domaintools.com/":
+![[Pasted image 20260118122801.png]]
+- And then we put a website URL, and it gives us some infos about it...
+- Let's try on TryHackMe:
+![[Pasted image 20260118122854.png]]
+- And here's some valuable info:
+![[Pasted image 20260118122958.png]]
+
+- There is another tool called "Netcraft", it gives us more details than whoisdomaintools, as it gives us also the technologies used in that website (JavaScript, SSL...)
+- We write "https://sitereport.netcraft.com" : 
+![[Pasted image 20260118123833.png]]
+- And we search for example for tryhackme:
+![[Pasted image 20260118123859.png]]
+- And here is some info:
+![[Pasted image 20260118123916.png]]
+- And here are some technologies:
+![[Pasted image 20260118123955.png]]
+- And now, for info related to DNS, we use "robtex.com"
+![[Pasted image 20260118124732.png]]
+- So basically : 
+- DNS = Takes a name and translates it into it IP Address
+- Reverse DNS = Takes an IP address and translates it into all server names with that IP
+- The idea here is, even if can't reach a website, we can reach it from another website from the same server as an alternative method...
+- And here we find them using Robtex...
+- We can also use sub-domains as an alternative if we can't reach a website:
+![[Pasted image 20260118125041.png]]
+- And in order to know the sub-domains of a website, we can use a Kali tool called "knockpy"
+- Here, we'll test on Google:
+![[Pasted image 20260118130638.png]]
+- And here are some subdomains:
+![[Capture d’écran (3175).png]]
+- Now, we'll see the files that make that website (Like index.html, index.php, script.js...)
+- They contain valuable infos, so we'll use a Kali tool called "dirb", itsearches all files of a server in which a website is made of...
+![[Pasted image 20260118131911.png]]
+- And here are the files:
+![[Pasted image 20260118132038.png]]
+- And so we can write those URLs with those files in the search bar and we access those hidden pages found by "dirb"
+- Those hidden pages are files... (As we know)
+- 

@@ -1,0 +1,18 @@
+- Bascially, it's the same thing as we did for Windows using the Backdoor (Payload file)...
+- Here, for example, instead of an .exe file, we'll use an .apk file
+![[Capture d’écran (3157).png]]
+- For Android, we need to do signatures in our payload, so we configure Java in our terminal like this:
+![[Pasted image 20260117123930.png]]
+- We need also to install "zipalign"
+![[Pasted image 20260117124055.png]]
+- Now we need to put a certificate in our Android app:
+- We'll use this text:
+![[Pasted image 20260117124148.png]]
+- ![[Pasted image 20260117124216.png]]
+- We choose a password
+- Now, we use the second command to put a signature to our .apk file
+![[Pasted image 20260117124148.png]]
+- Of course, we change the name of the app
+- We use the zipalign, to make the app load faster and not take many space, the final product (file) is the one we're sending to the target:
+![[Pasted image 20260117125013.png]]
+- And so we send it to him with multiple ways, and keep listening, once we get a signal that it caught him, we exploit...

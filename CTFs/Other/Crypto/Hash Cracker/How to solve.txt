@@ -1,0 +1,4 @@
+The idea here is, once you connect to the server using the nc command, 
+it'll give you a hashed code, you just have to discover the hash type (md5, sha1...)
+using for example an online decoder, once you discover the type of the hash,
+search for a code cracker of that hash type...

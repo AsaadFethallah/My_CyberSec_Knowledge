@@ -1,0 +1,38 @@
+- We will use a tool called "Maltego"
+![[Capture d’écran (3139).png]]
+- We can create a field called "Person" in which we write the name we want to investigate, we can also activate a feature that scans the Internet for all websites that contains that name...
+![[Pasted image 20260116213221.png]]
+- We can also search other things of the person, like phone numbers, emails...
+
+# Email Spoofing
+- "Email Spoofing" is to send an email to someone while he's thinking you're another person he knows...
+- Here we'll use the the website "sendinblue"
+- There is a an SMTP service in the app in which we'll use in Social Engineering.
+- We use this command to use the SMTP: ("sendemail")
+![[Pasted image 20260116220734.png]]
+-f : from
+-t : to
+-o message-header="From: [name] <[Our_True_Mail]>
+And other options, like the object, message...
+
+# Sherlock
+- This is a tool where we put a username, and it gives us all accounts in different apps with the same name.
+![[Pasted image 20260116222159.png]]
+
+
+# BeeF
+- This is a tool that we use to spy on someone...
+- Username is always "beef"
+We take this JavaScript code and modify the IP with our Kali IP Address...
+![[Capture d’écran (3148).png]]
+- We can do a lot of things like MitM...
+
+# Attack outside Network
+- "Port forwarding"
+- is a networking technique that lets external devices on the internet access a specific service running on a device inside a private local network (LAN).
+- Normally, devices inside your home or company network use private IP addresses (like 192.168.x.x) that are not reachable directly from the internet. Your router has a public IP, and it blocks unsolicited incoming connections by default.
+- Port forwarding creates an explicit rule in the router to allow certain incoming traffic through.
+
+![[Pasted image 20260116231919.png]]
+It's important to put LHOST 0.0.0.0, so that anyone from an outside network that executes the backdoor file gets caught...
+
