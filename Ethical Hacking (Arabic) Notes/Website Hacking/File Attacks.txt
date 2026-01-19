@@ -1,0 +1,20 @@
+- So basically, as we know, websites usually ask us to upload files such as pdf files, pictures...
+- We can use this feature to upload malware files to access to the server in a smooth way.
+- We can use a tool called "weevely" to create that file (php for example)
+- weevely generate [Password] [Where to create our file] 
+![[Pasted image 20260118164236.png]]
+- Once, we uploaded our file in the server, we can open a session in the server using that file using this command:
+![[Capture d’écran (3182).png]]
+- There is another trick we can use, is that we can put a command then ; then another commande...
+- For example ping ____; ls
+- Here are some attacking commands:
+![[Capture d’écran (3183).png]]
+- Here, we connected to the server using netcat:
+![[Capture d’écran (3184).png]]
+- "File Inclusion attack", as we know, websites are made of files, so in the URL, we can use the path movement (../../) to access some hidden files, we can even go to the root then access some hidden files
+- Reminder : 
+	 IP address of the website server = /var/www/
+- To protect ourselves from "Remote File Inclusion Attacks", we need to turn off these two paramaters:
+![[Pasted image 20260119155516.png]]
+- In this location in our server : 
+![[Capture d’écran (3187).png]]
