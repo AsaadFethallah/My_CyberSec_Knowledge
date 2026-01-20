@@ -1,0 +1,27 @@
+- What is XSS?
+![[Pasted image 20260120120422.png]]
+- To be clear, this attack concerns only clients in that website, not the website itself...
+- XSS Attacks types:
+- First, we have: Stored XSS
+![[Pasted image 20260120120509.png]]
+- Whenever, the client is on the page, the javaScript code that we put starts working...
+- Second, we have: Reflected XSS
+![[Pasted image 20260120120747.png]]
+- Here, it activates once the user clicks a link made by the XSS Attacker...
+- Last, we have : DOM Based XSS
+![[Pasted image 20260120120903.png]]
+- No need for the website to connect with the server...
+- So, to check if there are JavaScript vulnerabilities in a website, we can use this method of writing a JavaScript line code in a form for example:
+![[Pasted image 20260120121352.png]]
+- Here, in this code, we can see that it is being manipulated in the URL:
+![[Capture d’écran (3202).png]]
+- So basically, this is the key to the Reflected XSS Attack...
+- Now for the Stored attack, it's the same thing, just that it doesn't concern URL link, it concerns something within the page itself...
+![[Pasted image 20260120122142.png]]
+- The interesting thing here is, that once we execute that JS Code, whoever enters this page, will automatically execute that code...
+- So here, in order to seize control of a user machine, we can put that "Beef" application script code that they give us once we run it and put it in that form:
+![[Capture d’écran (3205).png]]
+![[Capture d’écran (3206) 1.png]]
+- And so whoever enters this page connects to my kali machine IP, therefore he appears in my BEEF app so I can manipulate him:
+![[Capture d’écran (3207).png]]
+- So one of the main solutions here, is to transform any text inserted in a form into "Text" even if it has the words "<script>"...
