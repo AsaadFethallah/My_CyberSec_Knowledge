@@ -1,0 +1,3 @@
+- Simply, remember to test this command on JPEG images:
+"strings [image_name] | grep pico"
+![[Capture d’écran (3219).png]]
