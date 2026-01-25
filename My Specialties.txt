@@ -13,7 +13,7 @@ AppSec Engineer
 
 DevSecOps Specialist
 💡 Real benefit:
-Web security experts prevent hacks like data leaks, session hijacking, and SQL injection attacks.
+Web security experts prevent hacks like data leaks, session hijacking, and SQL injection attacks, and many more...
 Example: Finding a vulnerability in an e-commerce website that could let attackers steal customer credit card data.
 
 
@@ -35,5 +35,3 @@ SOC (Security Operations Center) Analyst
 Companies depend on DFIR experts to identify how attackers got in, stop ongoing breaches, recover systems, and provide legal evidence if needed.
 Example: When a company gets hit by ransomware, DFIR specialists trace the intrusion, collect memory dumps, identify the ransomware strain, and help restore data.
 
-
-So in general, Let us focus on the Apps security, network systems and Cloud
